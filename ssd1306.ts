@@ -9,7 +9,7 @@ namespace OLED {
      */
     //% blockId=oled_init_terminal
     //% block="initialize OLED with height %height|width %width"
-    //% icon="\uf1ec" 
+    //% icon="\u2612" 
     //% shim=OLED::init_terminal
     export function init(height: number, width: number): void {
         return;
@@ -20,7 +20,7 @@ namespace OLED {
      */
     //% blockId=oled_clear_screen
     //% block="clear OLED display"
-    //% icon="\uf1ec" 
+    //% icon="\u2612" 
     //% shim=OLED::clearDisplay
     export function clear(): void {
         return;
@@ -34,7 +34,7 @@ namespace OLED {
     //% block="show|string %text" 
     //% async
     //% blockId=oled_print_string
-    //% icon="\uf1ec"
+    //% icon="\u2612"
     //% shim=OLED::showString
     export function showString(text: string): void {
         console.log("display: " + text);
