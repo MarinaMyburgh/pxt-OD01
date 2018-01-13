@@ -1,4 +1,4 @@
-//% icon="\uf26c"
+//% icon="\u2612"
 //% color="255" weight="90"
 namespace OLED {
 
