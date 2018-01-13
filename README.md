@@ -1,4 +1,4 @@
-# SSD1306 OLED MakeCode Package [![Build Status](https://travis-ci.org/Tinkertanker/pxt-oled-ssd1306.svg?branch=master)](https://travis-ci.org/Tinkertanker/pxt-oled-ssd1306)
+# OD01 OLED MakeCode Package [![Build Status](https://travis-ci.org/xinabox/pxt-OD01.svg?branch=master)](https://travis-ci.org/xinabox/pxt-OD01)
 
 This is the MakeCode Package for SSD1306 OLED controller, based on the Adafruit Arduino library available [here](https://github.com/adafruit/Adafruit_SSD1306).
 
@@ -64,6 +64,3 @@ basic.forever(() => {
 
 * for PXT/microbit
 
-## Footnotes
-
-1.  Datasheet https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf
