@@ -64,3 +64,7 @@ basic.forever(() => {
 
 * for PXT/microbit
 
+```package
+OD01=github:xinabox/pxt-OD01
+```
+
