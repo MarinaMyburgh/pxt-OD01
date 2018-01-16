@@ -1,9 +1,9 @@
-# initialise OLED
+# initialise OD01
 
-Sets up the OLED display and prepares it for use by the micro:bit.
+Sets up the OD01 display and prepares it for use by the micro:bit.
 
 ```sig
-OLED.init(64, 128);
+OD01.init(64, 128);
 ```
 
 This block must be placed before any of the ``show`` blocks.
@@ -16,8 +16,8 @@ This block must be placed before any of the ``show`` blocks.
 ## Example
 
 ```blocks
-OLED.init(64, 128)
-OLED.showNumber(123)
+OD01.init(64, 128)
+OD01.showNumber(123)
 ```
 
 # See also
