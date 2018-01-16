@@ -1,9 +1,9 @@
 # OD01 OLED MakeCode Package [![Build Status](https://travis-ci.org/xinabox/pxt-OD01.svg?branch=master)](https://travis-ci.org/xinabox/pxt-OD01)
 
-This is the MakeCode Package for SSD1306 OLED controller, based on the Adafruit Arduino library available [here](https://github.com/adafruit/Adafruit_SSD1306).
+This is the MakeCode Package for SSD1306 OLED controller.
 
 ## Hardware Setup
-1. Insert the OLED display into the I2C ports on the break out board.
+1. Insert the OD01 display into the I2C ports on the break out board.
 
 ## Blocks
 ### Initialize OLED Display
