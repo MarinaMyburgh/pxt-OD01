@@ -1,9 +1,9 @@
-# show string on OLED
+# show string on OD01
 
-Displays a string on the OLED module.
+Displays a string on the OD01 module.
 
 ```sig
-OLED.showString("hello, micro:bit!")
+OD01.showString("hello, micro:bit!")
 ```
 
 The ``init`` block must be placed before this.
@@ -15,8 +15,8 @@ The ``init`` block must be placed before this.
 ## Example
 
 ```blocks
-OLED.init(64, 128)
-OLED.showString("hello, micro:bit!")
+OD01.init(64, 128)
+OD01.showString("hello, micro:bit!")
 ```
 
 # See also
