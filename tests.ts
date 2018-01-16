@@ -1,12 +1,12 @@
 // tests go here; this will not be compiled when this package is used as a library
 
-OLED.init(64, 128)
-OLED.showString("hello, world!")
-OLED.showString("counter:")
+OD01.init(64, 128)
+OD01.showString("hello, world!")
+OD01.showString("counter:")
 let item = 0
 basic.forever(() => {
     basic.pause(1000)
     item += 1
-    OLED.showNumber(item)
+    OD01.showNumber(item)
 })
 
