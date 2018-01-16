@@ -1,16 +1,16 @@
 //% icon="\u2612"
 //% color="255" weight="90"
-namespace OLED {
+namespace OD01 {
 
     /**
-     * initialises the i2c OLED display
+     * initialises the i2c OD01 display
      * @param height height (in pixels)
      * @param width width (in pixels)
      */
     //% blockId=oled_init_terminal
-    //% block="initialize OLED with height %height|width %width"
+    //% block="initialize OD01 with height %height|width %width"
     //% icon="\u2612" 
-    //% shim=OLED::init_terminal
+    //% shim=OD01::init_terminal
     export function init(height: number, width: number): void {
         return;
     }
@@ -18,16 +18,16 @@ namespace OLED {
     /**
      * clears the screen.
      */
-    //% blockId=oled_clear_screen
+    //% blockId=OD01_clear_screen
     //% block="clear OLED display"
     //% icon="\u2612" 
-    //% shim=OLED::clearDisplay
+    //% shim=OD01::clearDisplay
     export function clear(): void {
         return;
     }
 
     /**
-     * prints a string on the OLED display
+     * prints a string on the OD01 display
      * @param text text to display
      */
     //% weight=87 blockGap=8
@@ -35,21 +35,21 @@ namespace OLED {
     //% async
     //% blockId=oled_print_string
     //% icon="\u2612"
-    //% shim=OLED::showString
+    //% shim=OD01::showString
     export function showString(text: string): void {
         console.log("display: " + text);
         return;
     }
 
     /**
-     * prints a number on the OLED display
+     * prints a number on the OD01 display
      * @param number number to display
      */
     //% weight=96
-    //% blockId=oled_print_number
+    //% blockId=OD01_print_number
     //% block="show|number %number" blockGap=8
     //% async 
-    //% shim=OLED::showNumber
+    //% shim=OD01::showNumber
     export function showNumber(number: number): void {
         console.log("display: " + number);
         return;
