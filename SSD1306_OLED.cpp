@@ -2,7 +2,7 @@
 #include "Adafruit_SSD1306.h"
 using namespace pxt;
 
-namespace OLED {
+namespace OD01 {
 	#define SSD1306_ADDRESS 0x3C
 	#undef printf
 	
