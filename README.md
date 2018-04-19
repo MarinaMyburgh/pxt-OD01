@@ -1,6 +1,6 @@
-# OD01 OLED MakeCode Package
+# ☒CHIP OD01
 
-This is the MakeCode Package for SSD1306 OLED controller.
+This is the MakeCode Package for ☒CHIP OD01
 
 ## Hardware Setup
 1. Insert the OD01 display into the I2C ports on the break out board.
