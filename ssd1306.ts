@@ -6,7 +6,7 @@ namespace OD01 {
      * initialises the i2c OD01 display
      */
     //% blockId=oled_init_terminal
-    //% block="initialize OD01
+    //% block="init OD01
     //% icon="\u2612" 
     //% shim=OD01::init_terminal
     export function init(): void {
@@ -17,7 +17,7 @@ namespace OD01 {
      * clears the screen.
      */
     //% blockId=OD01_clear_screen
-    //% block="clear OLED display"
+    //% block="clear OD01 display"
     //% icon="\u2612" 
     //% shim=OD01::clearDisplay
     export function clear(): void {
