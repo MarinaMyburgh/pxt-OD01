@@ -9,7 +9,7 @@ namespace OD01 {
 	MicroBitI2C i2c(I2C_SDA0, I2C_SCL0);
 	Adafruit_SSD1306_I2c *oled;
 
-	void init(int height, int width){
+	void init(){
 		if (oled != NULL) delete oled;
 		oled = new Adafruit_SSD1306_I2c(i2c, SSD1306_ADDRESS, 64, 128);
 		oled->splash();
@@ -17,7 +17,7 @@ namespace OD01 {
 	}
 	
 	//%
-	void init_terminal(int height, int width){
+	void init_terminal(){
 		if (oled != NULL) delete oled;
 		oled = new Adafruit_SSD1306_I2c(i2c, SSD1306_ADDRESS, 64, 128);
 		oled->clearDisplay();
