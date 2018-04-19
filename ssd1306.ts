@@ -1,5 +1,5 @@
 //% icon="\u2612"
-//% color="255" weight="90" block="OD01"
+//% weight=10 color=#9F79EE icon="\uf108" block="OD01"
 namespace OD01 {
 
     /**
