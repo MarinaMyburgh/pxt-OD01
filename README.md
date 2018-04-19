@@ -1,4 +1,4 @@
-# OD01 OLED MakeCode Package [![Build Status](https://travis-ci.org/xinabox/pxt-OD01.svg?branch=master)](https://travis-ci.org/xinabox/pxt-OD01)
+# OD01 OLED MakeCode Package
 
 This is the MakeCode Package for SSD1306 OLED controller.
 
@@ -12,7 +12,7 @@ Initializes the OLED display.
 Sets up the OLED display and prepares it for use by the micro:bit.
 
 ```sig
-OLED.init(64, 128);
+OLED.init();
 ```
 
 This block must be placed before any of the ``show`` blocks.
@@ -51,7 +51,7 @@ The ``init`` block must be placed before this.
 The following code is a simple counter that displays an increasing number every second.
 
 ```blocks
-OLED.init(64, 128)
+OLED.init()
 let item = 0
 basic.forever(() => {
     basic.pause(1000)
