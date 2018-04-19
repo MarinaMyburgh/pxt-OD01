@@ -1,6 +1,6 @@
 {
     "name": "pxt-OD01",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "MakeCode package for the ☒OD01",
     "license": "MIT",
     "dependencies": {
