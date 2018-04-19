@@ -1,6 +1,6 @@
 {
   "name": "pxt-OD01",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "dependencies": {},
   "devDependencies": {
     "pxt": "^0.3.0",
