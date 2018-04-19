@@ -15,7 +15,7 @@ The ``init`` block must be placed before this.
 ## Example
 
 ```blocks
-OD01.init(64, 128)
+OD01.init()
 OD01.showNumber(100)
 ```
 
