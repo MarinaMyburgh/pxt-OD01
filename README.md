@@ -1,6 +1,6 @@
-# ☒CHIP OD01
+# pxt-OD01
 
-This is the MakeCode Package for ☒CHIP OD01
+This is the MakeCode Package for the OD01 xChip.
 
 ## Hardware Setup
 1. Insert the OD01 display into the I2C ports on the break out board.
